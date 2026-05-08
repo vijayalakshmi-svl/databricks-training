@@ -1,45 +1,76 @@
 ## 📅 Week 1 – Day 1 Report
 
 ## 📌 Topics Covered
- - Introduction to SQL
- - Understanding database tables: Employee, Department, Project
- - Basic SQL queries: SELECT, WHERE, ORDER BY
- - Aggregate functions: COUNT, AVG, SUM, MAX
- - Joins: Combining Employee and Department tables
+
+- Introduction to SQL and relational databases
+- Understanding database tables and relationships
+- Creating and managing tables using SQL
+- Primary Key and Foreign Key concepts
+- Writing basic SQL queries using SELECT and WHERE
+- Filtering records with conditions and pattern matching
+- Sorting records using ORDER BY
+# Using aggregate functions such as:
+    - COUNT()
+    - AVG()
+    - SUM()
+    - MAX()
+    - MIN()
+- Grouping records using GROUP BY
+- Filtering grouped data using HAVING  
+# Working with Joins:
+   - INNER JOIN
+   - LEFT JOIN
+   - RIGHT JOIN
+- Using subqueries in SQL
+- Handling NULL values
+- Working with date functions and conditions
+- Retrieving top and bottom records using LIMIT
+  
 ## 🧪 Practice Work
- - Executed datacreation.sql in DB Fiddle
- - Successfully created tables and inserted data
- - Solved multiple SQL queries from the practice document
- - Tested all queries and verified outputs
+
+- Executed datacreation.sql successfully in DB Fiddle
+# Created the following tables:
+     - Employee
+     - Department
+     - Project
+- Inserted sample records into all tables
+- Solved and executed 65 SQL practice queries
+Performed:
+- Data retrieval queries
+- Filtering operations
+- Sorting operations
+- Aggregate calculations
+- Join operations
+- Grouping and subqueries
+- Verified outputs for all executed queries
+- Practiced query debugging and syntax correction
+  
 ## 🧠 What I Learned
- - Creating and managing tables using SQL
- - Writing SELECT queries to retrieve data
- - Filtering data using WHERE conditions
- - Using aggregate functions like COUNT, AVG, SUM, MAX
- - Sorting results using ORDER BY
- - Performing joins between tables
- - Handling NULL values in queries
- - Understanding Primary Key and Foreign Key relationships
+
+- Creating databases and tables using SQL
+- Defining relationships using Primary Keys and Foreign Keys
+- Retrieving records using SELECT statements
+- Filtering records using WHERE conditions
+- Searching patterns using LIKE operator
+- Sorting data using ORDER BY in ascending and descending order
+- Calculating totals, averages, minimums, and maximums using aggregate functions
+- Grouping records using GROUP BY
+- Filtering grouped results using HAVING
+- Combining multiple tables using joins
+- Writing nested queries using subqueries
+- Handling missing values with NULL conditions
+- Using date-based filtering in SQL queries
+- Improving SQL query writing and logical thinking skills
+  
 ## 📂 Files Included
- - queries.sql → Contains all SQL questions and solutions
- - output1.png, output2.png, output3.png → Screenshots of query outputs
-## 📸 Output Screenshots
-<img width="3455" height="1690" alt="output1" src="https://github.com/user-attachments/assets/35e83bdf-83fc-48a3-8701-df894ffb6943" />
 
-<img width="3455" height="1672" alt="output2" src="https://github.com/user-attachments/assets/29920898-4435-4fed-87c5-87bf81f6c824" />
+ - datacreation.sql → Contains table creation and insert statements
+ - queries.sql → Contains all 65 SQL queries and solutions
+    -- output1.png → Basic query outputs
+    -- output2.png → Aggregate function outputs
+    -- output3.png → Join and subquery outputs
+    -- output4.png → Grouping and sorting outputs
 
-<img width="3462" height="1680" alt="output3" src="https://github.com/user-attachments/assets/35944ff6-a383-4979-b76f-d4625d25e651" />
+## ✅ Conclusion
 
-<img width="3470" height="1647" alt="output4" src="https://github.com/user-attachments/assets/2e55e5e5-db8d-4399-a62b-b1b609fb511a" />
-
-<img width="3467" height="1687" alt="output5" src="https://github.com/user-attachments/assets/d899b213-a802-4e38-80ed-60f1ccebaade" />
-
-<img width="3475" height="1705" alt="output6" src="https://github.com/user-attachments/assets/1616506f-6f7a-46c9-8014-d2338e32a64b" />
-
-<img width="3460" height="1680" alt="output7" src="https://github.com/user-attachments/assets/54699fb2-fda8-4a47-acd1-5ca44a0a9d54" />
-
-<img width="3482" height="1642" alt="output8" src="https://github.com/user-attachments/assets/1e264ccb-7a4d-41df-b510-84e654cf1fcb" />
-
-<img width="3460" height="1682" alt="output9" src="https://github.com/user-attachments/assets/b2531bb1-5174-435d-adba-c9d5f1498ffa" />
-
-<img width="3462" height="1695" alt="output 10" src="https://github.com/user-attachments/assets/65ddf74b-3755-4272-81b3-8c8592c58442" />
+ - During Week 1 – Day 1, I practiced SQL fundamentals and advanced query concepts by working on 65 different SQL queries. This session improved my understanding of database management, data retrieval, joins, aggregate functions, grouping, and subqueries. I also gained hands-on experience in executing and testing SQL queries using DB Fiddle.
