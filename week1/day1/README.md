@@ -72,17 +72,17 @@ Performed:
  - Improving SQL problem-solving and logical thinking skills 💡
    
 ## 📂 Files Included
-➤ datacreation.sql → Table creation and sample data
-➤ queries.sql → Contains all 65 SQL queries and solutions
-➤ output1.png → Basic query outputs
-➤ output2.png → Aggregate function outputs
-➤ output3.png → Join and subquery outputs
-➤ output4.png → Grouping and sorting outputs
+📄 datacreation.sql → Table creation and sample data  
+📄 queries.sql → Contains all 65 SQL queries and solutions  
+🖼️ output1.png → Basic query outputs  
+🖼️ output2.png → Aggregate function outputs  
+🖼️ output3.png → Join and subquery outputs  
+🖼️ output4.png → Grouping and sorting outputs  
 
 ## 🎥 Learning Resources
-➜ SQL practice document
-➜ DB Fiddle platform
-➜ SQL tutorial videos
+📘 SQL practice document  
+💻 DB Fiddle platform  
+🎥 SQL tutorial videos  
 
 ## ✅ Conclusion
 
