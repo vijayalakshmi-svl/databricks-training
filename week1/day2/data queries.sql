@@ -1,4 +1,4 @@
-##SELECT
+##✅SELECT
 -- 1. Display all employee details
 SELECT * FROM Employees;
 
@@ -15,7 +15,7 @@ WHERE department = 'IT';
 -- 5. Display employee names and experience
 SELECT emp_name, experience FROM Employees;
 
-##WHERE
+##✅WHERE
 -- 1. Find employees with salary greater than 70000
 SELECT * FROM Employees
 WHERE salary > 70000;
@@ -36,7 +36,7 @@ WHERE department = 'Finance';
 SELECT * FROM Employees
 WHERE salary = 52000;
 
-##GROUP BY
+##✅GROUP BY
 -- 1. Find total salary department-wise
 SELECT department, SUM(salary) AS total_salary
 FROM Employees
@@ -62,7 +62,7 @@ SELECT department, MIN(experience) AS min_experience
 FROM Employees
 GROUP BY department;
 
-##HAVING
+##✅HAVING
 -- 1. Find departments having more than 3 employees
 SELECT department, COUNT(*) AS total_employees
 FROM Employees
@@ -93,7 +93,7 @@ FROM Employees
 GROUP BY department
 HAVING MAX(salary) > 90000;
 
-##TOP
+##✅TOP
 -- 1. Display top 5 highest paid employees
 SELECT TOP 5 *
 FROM Employees
@@ -120,7 +120,7 @@ SELECT TOP 1 *
 FROM Employees
 ORDER BY salary DESC;
 
-##DISTINCT
+##✅DISTINCT
 -- 1. Display distinct department names
 SELECT DISTINCT department
 FROM Employees;
@@ -141,7 +141,7 @@ FROM Employees;
 SELECT DISTINCT experience
 FROM Employees;
 
-##COMPARISON OPERATORS
+##✅COMPARISON OPERATORS
 -- 1. Find employees with salary >= 80000
 SELECT * FROM Employees
 WHERE salary >= 80000;
@@ -162,7 +162,7 @@ WHERE salary < 50000;
 SELECT * FROM Employees
 WHERE experience > 5;
 
-##LOGICAL OPERATORS
+##✅LOGICAL OPERATORS
 -- 1. Find employees from IT department AND salary greater than 70000
 SELECT * FROM Employees
 WHERE department = 'IT' AND salary > 70000;
@@ -183,7 +183,7 @@ WHERE salary > 60000 OR experience > 6;
 SELECT * FROM Employees
 WHERE NOT department = 'Sales';
 
-##IN AND NOT IN
+##✅IN AND NOT IN
 -- 1. Find employees working in ('Hyderabad', 'Mumbai')
 SELECT * FROM Employees
 WHERE city IN ('Hyderabad', 'Mumbai');
@@ -204,7 +204,7 @@ WHERE salary IN (45000, 75000, 91000);
 SELECT * FROM Employees
 WHERE department NOT IN ('HR', 'Sales');
 
-##BETWEEN
+##✅BETWEEN
 -- 1. Find employees with salary BETWEEN 50000 AND 80000
 SELECT * FROM Employees
 WHERE salary BETWEEN 50000 AND 80000;
@@ -225,7 +225,7 @@ WHERE salary NOT BETWEEN 40000 AND 60000;
 SELECT * FROM Employees
 WHERE experience BETWEEN 2 AND 4;
 
-##LIKE OPERATOR
+##✅LIKE OPERATOR
 -- 1. Find employees whose names start with 'R'
 SELECT * FROM Employees
 WHERE emp_name LIKE 'R%';
