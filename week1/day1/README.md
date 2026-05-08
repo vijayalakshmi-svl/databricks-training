@@ -1,6 +1,6 @@
-## 📅 Week 1 – Day 1 Report
+# 📅 Week 1 – Day 1 Report
 
-## 📌 Topics Covered
+# 📌 Topics Covered
 
 - Introduction to SQL and relational databases
 - Understanding database tables and relationships
@@ -9,7 +9,7 @@
 - Writing basic SQL queries using SELECT and WHERE
 - Filtering records with conditions and pattern matching
 - Sorting records using ORDER BY
-# Using aggregate functions such as:
+## Using aggregate functions such as:
     - COUNT()
     - AVG()
     - SUM()
@@ -17,7 +17,7 @@
     - MIN()
 - Grouping records using GROUP BY
 - Filtering grouped data using HAVING  
-# Working with Joins:
+## Working with Joins:
    - INNER JOIN
    - LEFT JOIN
    - RIGHT JOIN
@@ -26,10 +26,10 @@
 - Working with date functions and conditions
 - Retrieving top and bottom records using LIMIT
   
-## 🧪 Practice Work
+# 🧪 Practice Work
 
 - Executed datacreation.sql successfully in DB Fiddle
-# Created the following tables:
+## Created the following tables:
      - Employee
      - Department
      - Project
@@ -45,7 +45,7 @@ Performed:
 - Verified outputs for all executed queries
 - Practiced query debugging and syntax correction
   
-## 🧠 What I Learned
+# 🧠 What I Learned
 
 - Creating databases and tables using SQL
 - Defining relationships using Primary Keys and Foreign Keys
@@ -62,7 +62,7 @@ Performed:
 - Using date-based filtering in SQL queries
 - Improving SQL query writing and logical thinking skills
   
-## 📂 Files Included
+# 📂 Files Included
 
  - datacreation.sql → Contains table creation and insert statements
  - queries.sql → Contains all 65 SQL queries and solutions
@@ -71,6 +71,6 @@ Performed:
     - output3.png → Join and subquery outputs
     - output4.png → Grouping and sorting outputs
 
-## ✅ Conclusion
+# ✅ Conclusion
 
  - During Week 1 – Day 1, I practiced SQL fundamentals and advanced query concepts by working on 65 different SQL queries. This session improved my understanding of database management, data retrieval, joins, aggregate functions, grouping, and subqueries. I also gained hands-on experience in executing and testing SQL queries using DB Fiddle.
