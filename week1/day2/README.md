@@ -1,4 +1,4 @@
-# 📅 Week 1 – Day 2 Report
+# 📅 Week 1 – Day 2 Summary
 ## 📌 Topics Covered
  - SQL Queries Practice
  - SELECT and WHERE Clauses
