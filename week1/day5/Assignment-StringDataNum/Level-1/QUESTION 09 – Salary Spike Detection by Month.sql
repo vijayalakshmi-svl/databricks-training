@@ -16,3 +16,9 @@ SELECT
 FROM salary_monthly;
 
 --output
+
+| month_name | ceil_salary | last_day_of_month | status          |
+| ---------- | ----------- | ----------------- | --------------- |
+| January    | 75001       | 2025-01-31        | End Month Spike |
+| February   | 65001       | 2025-02-28        | End Month Spike |
+| March      | 85001       | 2025-03-31        | End Month Spike |
