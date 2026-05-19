@@ -18,3 +18,8 @@ FROM name_salary;
 
 --output
 
+| name_length | years_of_service | rounded_salary | status    |
+| ----------- | ---------------- | -------------- | --------- |
+| 8           | 7                | 75001          | Name Bias |
+| 5           | 4                | Name Bias      |           |
+| 4           | 10               | 85001          | Neutral   |
